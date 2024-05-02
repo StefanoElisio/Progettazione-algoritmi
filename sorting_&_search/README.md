@@ -6,9 +6,9 @@
 
 ## Complessità temporale
 
-- basic_soluiton = O(T + n*log.n)
-- binary_search = O(n*log.T)
-- exponential_search = O(n*log.n + n*log.L)
+- basic_soluiton = O(T + n log.n)
+- binary_search = O(n log.T)
+- exponential_search = O(n log.n + n log.L)
 
 
  
