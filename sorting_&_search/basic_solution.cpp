@@ -2,7 +2,7 @@
 #include<algorithm>
 #include<vector>
 std::vector<int> arrival_times = {2,5,9,16,22};
-int T = 29;
+int T = 28;
 int n = arrival_times.size();
 
 int main(){
