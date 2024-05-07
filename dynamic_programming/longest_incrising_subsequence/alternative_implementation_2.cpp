@@ -3,7 +3,6 @@
 //
 #include "iostream"
 #include "vector"
-#include "algorithm"
 
 std::vector <int> S = {4, 1, 8, 3, 4, 8, 2, 7, 5, 6, 9, 8};
 std::vector <int> opt(S.size());

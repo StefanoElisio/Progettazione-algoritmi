@@ -7,4 +7,6 @@
 
 # complessità computazionale
 - basic_implementation = O(n^2)
+- alternative_implementation_1 = O(n^2)
+- alternative_implementation_2 = O(n log.n)
  
