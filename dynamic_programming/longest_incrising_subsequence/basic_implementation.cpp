@@ -4,10 +4,8 @@
 #include "iostream"
 #include "vector"
 
-std::vector <int> S = {4, 1, 8, 3, 4, 8, 2, 7, 5, 6, 9, 8};
-std::vector <int> opt(S.size());
-
-int main(){
+int lis(std::vector <int> S){
+    std::vector <int> opt(S.size());
     opt[0] = 0;
     opt[1] = 1;
     for(int i = 2; i<S.size(); i++){
@@ -20,6 +18,10 @@ int main(){
     for(int i = 2; i<opt.size(); i++){
         B_size = std::max(B_size,opt[i]);
     }
+    return B_size;
+}
 
-    std::cout<<B_size;
+int main(){
+    std::vector <int> S = {4, 1, 8, 3, 4, 8, 2, 7, 5, 6, 9, 8};
+    std::cout<<lis(S)<<"\n";
 }

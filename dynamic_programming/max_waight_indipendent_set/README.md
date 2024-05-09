@@ -10,13 +10,11 @@
 no_path = O(n)
 
 ## on tree
+### problema:
 - dato un albero, ed ogni nodo ha un peso
 - trovare il più grande (di peso maggiore) insieme indipendente di nodi
-
-### problema:
-on_tree = O(n)
-
 ### complessità computazionale
+on_tree = O(n)
 
 ## budgeted on tree 
 
