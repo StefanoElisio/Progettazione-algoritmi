@@ -7,7 +7,7 @@ tale che la somma degli elementi di B è pari
 
 ## Complessità temporale
 
-- brute_force = 0(n^3).
+- brute_force = ø(n^3).
 - prefix_sum_1 = O(n^2).
 - prefix_sum_2 = O(n).
 
