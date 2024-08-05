@@ -5,12 +5,12 @@ int n = A.size();
 int k = 9;
 
 int main(){
-    int left=0, right=-1, sum=0;
+    int left=0, right=0, sum=0;
     int best_left=-1, best_right=-1, best_sum=-1;
     do
     {
         if(sum<=k && right<n-1)
-            sum += A[++right];
+            sum += A[right++];
         else
             sum -= A[left++];
         if(sum<=k && sum>best_sum)
